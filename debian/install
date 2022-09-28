@@ -1,0 +1,2 @@
+#debian/overrides/bzrtools                usr/share/lintian/overrides/
+#tests/*.py 				 usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests

@@ -1,0 +1,40 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: bzrtools
+Upstream-Contact: Aaron Bentley <aaron@aaronbentley.com>
+Source: http://bazaar-vcs.org/BzrTools.
+
+Files: *
+Copyright: 2004-2008 Aaron Bentley <aaron.bentley@utoronto.ca>
+           2005-2006 Canonical Limited.
+           2006 Michael Ellerman
+           2007 John Arbash Meinel
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2005 Jeff Bailey <jbailey@ubuntu.com>
+           2007 Gustavo Franco <stratus@debian.org>
+           2007 Arnaud Fontaine <arnau@debian.org>
+           2009 Reinhard Tartler <siretart@tauware.de>
+           2008-2009 Adeodato Simó <dato@net.com.org.es>
+           2008-2011 Jelmer Vernooij <jelmer@debian.org>
+           2012 Eric Newberry <eric@azrockets.org>
+License: GPL-2+
+
+License: GPL-2+
+ This  package is  free software;  you can  redistribute  it and/or
+ modify it  under the  terms of the  GNU General Public  License as
+ published by the Free Software Foundation; either version 2 of the
+ License, or (at your option) any later version.
+ .
+ This package  is distributed in the  hope that it  will be useful,
+ but  WITHOUT ANY WARRANTY;  without even  the implied  warranty of
+ MERCHANTABILITY or FITNESS FOR  A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ You should have received a  copy of the GNU General Public License
+ along  with this  package;  if  not, write  to  the Free  Software
+ Foundation,  Inc.,  51  Franklin   St,  Fifth  Floor,  Boston,  MA
+ 02110-1301 USA
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ can be found in /usr/share/common-licenses/GPL-2 file.

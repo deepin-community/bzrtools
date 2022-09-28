@@ -1,0 +1,26 @@
+Source: bzrtools
+Section: vcs
+Priority: optional
+Maintainer: Debian Bazaar Maintainers <pkg-bazaar-maint@lists.alioth.debian.org>
+Uploaders: Eric Newberry <eric@azrockets.org>,
+           Andrew Starr-Bochicchio <asb@debian.org>,
+           Jelmer Vernooĳ <jelmer@debian.org>,
+           Vincent Ladeuil <v.ladeuil+lp@free.fr>
+Build-Depends: debhelper-compat (= 12)
+Vcs-Bzr: https://code.launchpad.net/~debian-bazaar/debian/sid/bzrtools/unstable
+Vcs-Browser: https://code.launchpad.net/~debian-bazaar/debian/sid/bzrtools/unstable
+Homepage: http://bazaar-vcs.org/BzrTools
+Standards-Version: 4.4.0
+
+Package: bzrtools
+Architecture: all
+Depends: brz, ${misc:Depends}
+Recommends: rsync
+Suggests: graphviz, librsvg2-bin
+Breaks: ${python:Breaks}
+Description: transitional dummy package
+ This is a transitional package, replacing the Bazaar packaging
+ with the Breezy packaging (which bundles the bzrtools plugin).
+ .
+ It can be safely removed after an upgrade.
+Section: oldlibs

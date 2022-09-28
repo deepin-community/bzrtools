@@ -1,0 +1,4 @@
+testing = false
+series = stable
+check_script = ./check-release.py
+edit_changelog = true
